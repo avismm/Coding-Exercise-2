@@ -11,7 +11,7 @@ public class Qn12Registration {
 
     public void setEmail(String email){
         this.email=email;
-            if (!email.endsWith("@yahoo.com")||!email.endsWith("@yahoo.co.uk")) {
+            if (!email.endsWith("@yahoo.com")&&!email.endsWith("@yahoo.co.uk")) {
                 System.out.println("Email must contain @yahoo.com or @yahoo.co.uk");
             }
     }
